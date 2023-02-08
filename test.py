@@ -15,6 +15,7 @@ class PythonOrgSearch(unittest.TestCase):
         verified that some results show up.  Note that it does not look for
         any particular text in search results page. This test verifies that
         the results were not empty."""
+        #test
 
         # Load the main page. In this case the home page of Python.org.
         main_page = page.MainPage(self.driver)
